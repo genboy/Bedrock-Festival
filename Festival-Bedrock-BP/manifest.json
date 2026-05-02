@@ -1,0 +1,26 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Festival server add-on for Minecraft Bedrock",
+    "name": "Festival",
+    "uuid": "6c7f1f1a-8e14-4d8f-b6e9-3f3a1a8d2c6f",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "capabilities": [ "script" ],
+  "modules": [
+    {
+      "description": "Festival behavior scripts",
+      "type": "script",
+      "uuid": "c0ef8147-39ea-4f9d-8bb4-3bec80945f45",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "b26164cb-8405-459b-9fda-f0034239d318",
+      "version": [1, 0, 0]
+    }
+  ]
+}
